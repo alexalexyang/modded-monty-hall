@@ -3,6 +3,8 @@
 ## Sample results
 
 ```
+User win rate:
+
 Control:                                33.36128%
 User and game keep choices:             49.96998%
 User changes door, game keeps door:     25.01566%

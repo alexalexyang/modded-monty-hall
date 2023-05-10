@@ -71,6 +71,7 @@ const rounds = (
     return winPercentage
 }
 
+console.log("User win rate:\n")
 
 console.log(`Control:\t\t\t\t${rounds(control, false, false)}%`)
 

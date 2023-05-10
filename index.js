@@ -54,6 +54,7 @@ var rounds = function (gameFunc, userChangesDoor, gameChangesDoor) {
     var winPercentage = (wins / numOfRounds) * 100;
     return winPercentage;
 };
+console.log("User win rate:\n");
 console.log("Control:\t\t\t\t" + rounds(control, false, false) + "%");
 console.log("User and game keep choices:\t\t" + rounds(game, false, false) + "%");
 console.log("User changes door, game keeps door:\t" + rounds(game, true, false) + "%");
